@@ -1,0 +1,61 @@
+.error-message.red{
+    color: red;
+}
+
+.error-message.green{
+    color: green;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 25%;
+    margin: 0;
+    margin-left: 700px;
+    
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 40%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+h2 {
+    text-align: center;
+}
